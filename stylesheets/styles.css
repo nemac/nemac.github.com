@@ -1,5 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+	  width:860px;
+  margin:0 auto;
+  position:relative;
+}
+
+
+
+
 body {
   padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -71,9 +90,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
-  margin:0 auto;
-  position:relative;
+
 
 }
 
@@ -84,6 +101,10 @@ a small {
 	position:relative;
 	float:left;
 	
+}
+
+.footer-wrapper, .push {
+	height: 142px; /* .push must be the same height as .footer */
 }
 
 blockquote {
