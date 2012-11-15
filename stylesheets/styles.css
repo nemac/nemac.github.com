@@ -7,6 +7,10 @@ body {
   font-weight:300;
 }
 
+html {
+	background:url(github_bg.jpg) no-repeat left bottom;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
@@ -20,8 +24,22 @@ h1, h2, h3 {
   line-height:1.1;
 }
 
+
 h1 {
   font-size:28px;
+}
+
+h1.title {
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing:0;
+	font-size:18px;
+}
+
+h3.subtitle {
+	font-family:"Courier New", Courier, monospace;
+	letter-spacing:0;
+	font-size:12px;
 }
 
 h2 {
@@ -97,8 +115,7 @@ img {
 
 header {
   width:100%;
-  color:#FFF;
-  background:#069;
+  color:#000;
   padding:2em;
 }
 
