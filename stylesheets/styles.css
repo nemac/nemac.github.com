@@ -89,10 +89,6 @@ a small {
 	float:left;
 }
 
-.wrapper {
-
-
-}
 
 .footer-wrapper {
 	background-color:#069;
@@ -226,6 +222,7 @@ footer {
 	background-color:#069;
   color:#FFF;
   text-align:left;
+  padding:1em;
 }
 .infobox {
 	width:30%;
