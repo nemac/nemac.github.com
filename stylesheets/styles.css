@@ -215,7 +215,7 @@ hr {
   margin:0 0 20px;
 }
 
-footer {
+.footer {
 	width:860px;
 	margin:0 auto;
 	position:relative;
@@ -225,6 +225,11 @@ footer {
   text-align:left;
   padding:1em;
 }
+
+.footer a {
+	color:#FFF;
+}
+
 .infobox {
 	width:30%;
 	float:left;
