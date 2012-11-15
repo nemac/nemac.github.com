@@ -33,13 +33,15 @@ h1.title {
 	font-family:Arial, Helvetica, sans-serif;
 	text-transform:uppercase;
 	letter-spacing:0;
-	font-size:18px;
+	font-size:48px;
+	font-weight:normal;
 }
 
 h3.subtitle {
 	font-family:"Courier New", Courier, monospace;
 	letter-spacing:0;
-	font-size:12px;
+	font-size:14px;
+	font-weight:normal;
 }
 
 h2 {
