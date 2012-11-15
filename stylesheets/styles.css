@@ -97,6 +97,7 @@ a small {
 
 .footer-wrapper, .push {
 	height: 142px; /* .push must be the same height as .footer */
+	clear:both;
 }
 
 blockquote {
