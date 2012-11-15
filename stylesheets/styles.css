@@ -6,14 +6,16 @@
 html, body {
 	height: 100%;
 }
+
 .wrapper {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-	margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+	min-height:100%
+}
+
+.content {
+	overflow:auto;
+	padding-bottom: 150px;
 	width:860px;
 	margin:0 auto;
-	position:relative;
 	}
 
 
@@ -82,11 +84,6 @@ a small {
   display:block;
 }
 
-.content {
-	position:relative;
-	width:100%;
-	float:left;
-}
 
 
 .footer-wrapper {
