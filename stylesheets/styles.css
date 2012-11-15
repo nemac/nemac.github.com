@@ -8,13 +8,12 @@ html, body {
 }
 
 .wrapper {
-	min-height:100%
+	min-height:100%;
 }
 
 .content {
 	overflow:auto;
-	padding-bottom: 150px;
-	width:860px;
+	padding-bottom: 142px;
 	margin:0 auto;
 	}
 
