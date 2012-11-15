@@ -64,6 +64,12 @@ a small {
   display:block;
 }
 
+.content {
+	position:relative;
+	width:100%;
+	float:left;
+}
+
 .wrapper {
   width:860px;
   margin:0 auto;
@@ -74,6 +80,10 @@ a small {
 .footer-wrapper {
 	background-color:#069;
 	width:100%;
+	text-align:center;
+	position:relative;
+	float:left;
+	
 }
 
 blockquote {
@@ -192,8 +202,9 @@ hr {
 footer {
   width:860px;
   bottom:50px;
-background-color:#069;
+	background-color:#069;
   color:#FFF;
+  text-align:left;
 }
 .infobox {
 	width:30%;
