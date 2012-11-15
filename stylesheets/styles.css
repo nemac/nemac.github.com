@@ -11,16 +11,15 @@ html, body {
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
-	  width:860px;
-  margin:0 auto;
-  position:relative;
-}
+	width:860px;
+	margin:0 auto;
+	position:relative;
+	}
 
 
 
 
 body {
-  padding:50px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:300;
@@ -217,7 +216,9 @@ hr {
 }
 
 footer {
-  width:860px;
+	width:860px;
+	margin:0 auto;
+	position:relative;
   bottom:50px;
 	background-color:#069;
   color:#FFF;
