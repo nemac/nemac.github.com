@@ -69,6 +69,10 @@ a small {
   margin:0 auto;
 }
 
+.footer-wrapper {
+	background:#069;
+}
+
 blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
@@ -186,7 +190,7 @@ hr {
 footer {
   width:100%;
   bottom:50px;
-  background:#069;
+
   color:#FFF;
 }
 .infobox {
