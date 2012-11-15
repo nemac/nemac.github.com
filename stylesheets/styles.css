@@ -64,7 +64,7 @@ a small {
   display:block;
 }
 
-.wrapper {
+.wrapper, .footer-wrapper {
   width:860px;
   margin:0 auto;
 }
@@ -189,6 +189,11 @@ footer {
   background:#069;
   color:#FFF;
 }
+.infobox {
+	width:30%;
+	float:left;
+}
+
 
 @media print, screen and (max-width: 960px) {
   
