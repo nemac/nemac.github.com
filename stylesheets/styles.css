@@ -70,7 +70,7 @@ a small {
 }
 
 .footer-wrapper {
-	background:#069;
+	background-color:#069;
 }
 
 blockquote {
@@ -196,6 +196,10 @@ footer {
 .infobox {
 	width:30%;
 	float:left;
+}
+
+.infobox ul {
+	margin-left:10px;
 }
 
 
