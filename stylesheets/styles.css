@@ -67,6 +67,8 @@ a small {
 .wrapper, .footer-wrapper {
   width:860px;
   margin:0 auto;
+  position:relative;
+  float:left;
 }
 
 .footer-wrapper {
