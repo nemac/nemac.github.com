@@ -157,6 +157,14 @@ table {
 	margin-top:20px;
 }
 
+#footer a {
+	color:#ccc;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	text-decoration:underline;
+}
 
 
 
@@ -168,12 +176,11 @@ h1, h2, h3 ,h4 ,h5, h6 {
 ul#repo-list li {
 	list-style:none;
 	display:inline-block;
-	width:150px;
-	background:url(thumb.php) #39c;
+	width:140px;
 	float:left;
+	padding:5px;
 	margin:1em;
-	height:200px;
-	padding:3px;
+	height:190px;
 	border:thin solid #999;
 }
 
@@ -181,9 +188,12 @@ ul#repo-list li a {
 	text-decoration:none;
 	font-family:Arial, Helvetica, sans-serif;
 	font-weight:bold;
-	font-size:1em;
+	font-size:1.1em;
 	letter-spacing:0;
 	color:white;
+	width:140px;
+	height:190px;
+	text-shadow: 2px 2px 3px #333;
 }
 
 ul#repo-list li a:hover {
