@@ -1,243 +1,196 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
-* {
-	margin: 0;
-}
-html, body {
-	height: 100%;
+html, body, #page {
+	height:100%;
 }
 
-.wrapper {
-	min-height:100%;
+html {
+	display:block;
 }
-
-.content {
-	padding-bottom: 142px;
-	margin:0 auto;
-	}
-
-
 
 
 body {
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	line-height:1.5;
+	font-size:87.5%;
+	word-wrap:break-word;
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	color:#3b3b3b;
 }
 
-
-
-h1, h2, h3, h4, h5, h6 {
-  color:#222;
-  margin:0 0 20px;
+div {
+	display:block;
 }
 
-p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+#skip-link {
+	left: 50%;
+	margin-left: -5.25em;
+	margin-top: 0;
+	position: absolute;
+	width: auto;
+	z-index: 50;
 }
 
-h1, h2, h3 {
-  line-height:1.1;
+#toolbar {
+	background: #666;
+	color: #CCC;
+	font: normal small "Lucida Grande", Verdana, sans-serif;
+	left: 0;
+	margin: 0 -20px;
+	padding: 0 20px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	-moz-box-shadow: 0 3px 20px #000;
+	-webkit-box-shadow: 0 3px 20px black;
+	box-shadow: 0 3px 20px black;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#000000, direction='180', strength='10');
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color=#000000, direction='180', strength='10')";
+	z-index: 600;
+	border: 0;
+	font-size: 100%;
+	line-height: inherit;
+	list-style: none;
+	outline: 0;
+	text-align: left;
+	vertical-align: baseline;
 }
 
-
-h1 {
-  font-size:28px;
+#page-wrapper {
+	min-height:100%;
+	min-width:960px;
 }
 
-h1.title {
-	font-family:Arial, Helvetica, sans-serif;
-	text-transform:uppercase;
-	letter-spacing:-2px;
-	font-size:60px;
+#page-wrapper, #footer-wrapper {
+	background:#292929;
+}
+
+#page, #main-wrapper, 
+#main-menu-links li a.active,
+#main-menu-links li.active-trail a {
+	background:white;
+}
+
+#header {
+	/*background-color:#48a9e4;*/
+	background:url(header_8.jpg) repeat-x;
+	min-height:30px;
+}
+
+#header div.section {
+	position:relative;
+}
+
+#site-name {
 	font-weight:normal;
-	margin-bottom:0px;
+	color:white;
+	margin-bottom:0;
 }
 
-h3.subtitle {
-	font-family:"Courier New", Courier, monospace;
+#site-name .title {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:1.5em;
 	letter-spacing:0;
-	font-size:14px;
+	margin-right:15px;
+}
+
+#site-name .subtitle {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:.8em;
+	text-transform:uppercase;
+}
+
+h3#site-subtitle {
+	font-family:Arial, Helvetica, sans-serif;
 	font-weight:normal;
+	font-size:12pt;
+	color:white;
+	letter-spacing:0;
+	margin:0;
 }
 
-h2 {
-  color:#393939;
+#header div.section,
+#main, #footer, #footer-columns {
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
-h3, h4, h5, h6 {
-  color:#494949;
-}
-
-a {
-  color:#39c;
-  font-weight:400;
-  text-decoration:none;
-}
-
-a small {
-  font-size:11px;
-  color:#777;
-  margin-top:-0.6em;
-  display:block;
-}
-
-
-
-.footer-wrapper {
-	background-color:#069;
-	width:100%;
-	text-align:center;
-	position:relative;
-	float:left;
-	
-}
-
-.footer-wrapper, .push {
-	height: 142px; /* .push must be the same height as .footer */
-	clear:both;
-}
-
-blockquote {
-  border-left:1px solid #e5e5e5;
-  margin:0;
-  padding:0 0 0 20px;
-  font-style:italic;
-}
-
-code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#333;
-  font-size:12px;
-}
-
-pre {
-  padding:8px 15px;
-  background: #f8f8f8;  
-  border-radius:5px;
-  border:1px solid #e5e5e5;
-  overflow-x: auto;
-}
-
+#header, #footer-wrapper, 
+ul.links, ul.primary, .item-list 
 table {
-  width:100%;
-  border-collapse:collapse;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-th, td {
-  text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+#main-wrapper {
+	min-height:300px;
 }
 
-dt {
-  color:#444;
-  font-weight:700;
+.clearfix::after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
 }
 
-th {
-  color:#444;
+
+#footer-wrapper {
+	color:silver;
+	font-size:.857em;
+	padding:35px 5px 30px;
 }
 
-img {
-  max-width:100%;
+#footer {
+	letter-spacing: 0.2px;
+	margin-top: 30px;
+	border-top: 1px solid #555;
+	border-color: rgba(255, 255, 255, 0.15);
+	width:940px;
+	min-width:920px;
 }
 
-header {
-  width:100%;
-  color:#000;
-  padding:2em;
-  background:url(github_bg.jpg) no-repeat left bottom;
+#footer .region {
+	margin-top:20px;
 }
 
-header ul {
-  list-style:none;
-  height:40px;
-  padding:0;
 
+
+
+h1, h2, h3 ,h4 ,h5, h6 {
+	font-family:Arial, Helvetica, sans-serif;
+	color:#333;
 }
 
-header li {
-  width:89px;
-  float:left;
-  border-right:1px solid #d2d2d2;
-  height:40px;
-}
-
-header ul a {
-  line-height:1;
-  font-size:11px;
-  color:#999;
-  display:block;
-  text-align:center;
-  padding-top:6px;
-  height:40px;
-}
-
-strong {
-  font-weight:700;
-}
-
-header ul li + li {
-  width:88px;
-  border-left:1px solid #fff;
-}
-
-header ul li + li + li {
-  border-right:none;
-  width:89px;
-}
-
-header ul a strong {
-  font-size:14px;
-  display:block;
-  color:#222;
-}
-
-section {
-  width:100%;
-  float:right;
-  padding-bottom:50px;
-}
-
-small {
-  font-size:11px;
-}
-
-hr {
-  border:0;
-  background:#e5e5e5;
-  height:1px;
-  margin:0 0 20px;
-}
-
-.footer {
-	width:860px;
-	margin:0 auto;
-	position:relative;
-  bottom:50px;
-	background-color:#069;
-  color:#FFF;
-  text-align:left;
-  padding:1em;
-}
-
-.footer a {
-	color:#FFF;
-}
-
-.infobox {
-	width:30%;
+ul#repo-list li {
+	list-style:none;
+	display:inline-block;
+	width:150px;
+	background:url(thumb.php) #39c;
 	float:left;
+	margin:1em;
+	height:200px;
+	padding:3px;
+	border:thin solid #999;
 }
 
-.infobox ul {
-	margin-left:10px;
+ul#repo-list li a {
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:1em;
+	letter-spacing:0;
+	color:white;
 }
 
-.infobox ul li {
-	list-style:disc;
+ul#repo-list li a:hover {
+	text-decoration:underline;
 }
+
+
 
 
 @media print, screen and (max-width: 960px) {
